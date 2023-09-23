@@ -4,7 +4,7 @@ import ClassSearch from './Components/ClassSearch';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Login from './Components/Login';
-import Signup from './Components/Signup'
+import Signup from './Components/Signup';
 
 function App() {
   return (
