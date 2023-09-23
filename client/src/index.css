@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #eef6ff;
+  color: ##1b1c3d;
 }
 
 code {
@@ -46,13 +48,32 @@ code {
 }
 
 .buttons {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .button {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-size: large;
+  border: 1.5px solid #1b1c3d;
+  background-color: #eef6ff;
+  border-radius: 5px;
+  transition-duration: 100ms;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.title {
+  margin-bottom: 0.75rem;
+}
+
+.description {
+  margin-top: 0.5rem;
+  font-size: x-large;
 }
