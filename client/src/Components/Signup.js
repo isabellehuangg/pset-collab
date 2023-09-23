@@ -31,9 +31,9 @@ const SignupForm = () => {
                         <option value="2A">2A</option>
                         <option value="2B">2B</option>
                         <option value="3A">3A</option>
-                        <option value="3B">3A</option>
+                        <option value="3B">3B</option>
                         <option value="4A">4A</option>
-                        <option value="4B">3A</option>
+                        <option value="4B">4B</option>
                     </select>
                 </div>
                 <div className="question">
