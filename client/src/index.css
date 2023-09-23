@@ -121,11 +121,30 @@ form > button {
   margin-top: 1rem;
 }
 
-.formContainer {
+.formContainerSignUp {
   max-height: fit-content;
   margin-top: 10rem;
 }
 
+.formContainerLogIn {
+  max-height: fit-content;
+}
+
 .button {
   margin-bottom: 2em;
+}
+
+input {
+  border: 1.5px solid #1b1c3d;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border: 1.5px solid #2e2f72;
+}
+
+.select-box {
+  border: 1.5px solid #1b1c3d;
+  border-radius: 4px;
 }

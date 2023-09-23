@@ -12,7 +12,7 @@ const SignupForm = () => {
             <div className="question-short">
                 <div className="question">
                     <label for="term">Term *</label>
-                    <select id="term">
+                    <select id="term" className="select-box">
                         <option disabled selected value> Select </option>
                         {terms.map((term) => (
                             <option key={term.value} value={term.value}>
@@ -23,7 +23,7 @@ const SignupForm = () => {
                 </div>
                 <div className="question">
                     <label for="pronouns">Pronouns</label>
-                    <select id="pronouns">
+                    <select id="pronouns" className="select-box">
                         <option disabled selected value> Select </option>
                         {pronouns.map((pronoun) => (
                             <option key={pronoun.value} value={pronoun.value}>
@@ -41,7 +41,7 @@ const SignupForm = () => {
 const Signup = () => {
     return (
         <div className="Signup">
-            <div className="formContainer">
+            <div className="formContainerSignUp">
                 <h1>Tell us a bit about yourself!</h1>
                 <SignupForm />
             </div>
