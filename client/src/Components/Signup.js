@@ -1,39 +1,52 @@
 const SignupForm = () => {
     return (
         <form>
-            <div>
-                <label for="first">First Name *</label>
-                <input type="text" id="first" required />
-            </div>
-            <div>
-                <label for="last">Last Name *</label>
-                <input type="text" id="last" required />
-            </div>
-            <div>
-                <label for="program">Program *</label>
-                <input type="text" id="last" required />
-            </div>
-            <div>
-                <label for="term">Term *</label>
-                <select id="term">
-                    <option disabled selected value> Select </option>
-                    <option value="1A">1A</option>
-                    <option value="1B">1B</option>
-                    <option value="2A">2A</option>
-                    <option value="2B">2B</option>
-                    <option value="3A">3A</option>
-                    <option value="3B">3A</option>
-                    <option value="4A">4A</option>
-                    <option value="4B">3A</option>
-                </select>
-            </div>
-            <div>
+            <div className="question">
                 <label for="email">Email *</label>
                 <input type="email" id="email" required />
             </div>
-            <div>
+            <div className="question">
                 <label for="password">Password *</label>
                 <input type="password" id="password" required />
+            </div>
+            <div className="question">
+                <label for="first">First Name *</label>
+                <input type="text" id="first" required />
+            </div>
+            <div className="question">
+                <label for="last">Last Name *</label>
+                <input type="text" id="last" required />
+            </div>
+            <div className="question">
+                <label for="program">Program *</label>
+                <input type="text" id="last" required />
+            </div>
+            <div className="question-short">
+                <div className="question">
+                    <label for="term">Term *</label>
+                    <select id="term">
+                        <option disabled selected value> Select </option>
+                        <option value="1A">1A</option>
+                        <option value="1B">1B</option>
+                        <option value="2A">2A</option>
+                        <option value="2B">2B</option>
+                        <option value="3A">3A</option>
+                        <option value="3B">3A</option>
+                        <option value="4A">4A</option>
+                        <option value="4B">3A</option>
+                    </select>
+                </div>
+                <div className="question">
+                    <label for="pronouns">Pronouns</label>
+                    <select id="pronouns">
+                        <option disabled selected value> Select </option>
+                        <option value="she-her">she/her/hers</option>
+                        <option value="he-him">he/him/his</option>
+                        <option value="they-them">they/them/theirs</option>
+                        <option value="they-them">Other</option>
+                        <option value="they-them">Prefer not to say</option>
+                    </select>
+                </div>
             </div>
             <button className="button">Start Learning</button>
         </form>

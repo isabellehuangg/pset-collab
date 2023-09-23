@@ -85,23 +85,30 @@ form {
   margin-top: 2rem;
 }
 
-form > * > label {
+.question label {
   align-self: flex-start;
 }
 
-form > * {
+.question {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
 }
 
-form > * > input {
+.question-short {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.question > input {
   padding: 0.4rem;
   width: 60vh;
 }
 
-form > * select {
+.question > select {
   padding: 0.4rem;
   width: 12vh;
   text-align: center;

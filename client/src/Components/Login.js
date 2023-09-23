@@ -1,11 +1,11 @@
 const LoginForm = () => {
     return (
         <form>
-            <div>
+            <div className="question">
                 <label for="email">Email *</label>
                 <input type="email" id="email" required />
             </div>
-            <div>
+            <div className="question">
                 <label for="password">Password *</label>
                 <input type="password" id="password" required />
             </div>
