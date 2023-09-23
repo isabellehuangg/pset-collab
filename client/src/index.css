@@ -36,3 +36,23 @@ code {
 .link:hover {
   transform: scale(1.04);
 }
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+.button {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
