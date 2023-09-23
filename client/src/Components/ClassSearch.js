@@ -8,7 +8,7 @@ const ClassSearch = () => {
             <h1>Find Your Classes</h1>
             <form>
             {classes.map((classItem) => (
-                <div key={classItem.id}>
+                <div className="class-wrapper" key={classItem.id}>
                 <label htmlFor={classItem.id} className="selectClass">{classItem.label}</label>
                     <select id="classes" className="select-box">
                         <option disabled selected value> {classItem.label} </option>

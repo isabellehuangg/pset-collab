@@ -147,4 +147,15 @@ input:focus {
 .select-box {
   border: 1.5px solid #1b1c3d;
   border-radius: 4px;
+  padding: 0.4rem;
+  width: 18rem;
+}
+
+.class-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.class-wrapper > select {
+  justify-self: flex-end;
 }
