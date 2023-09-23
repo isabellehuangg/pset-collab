@@ -6,12 +6,6 @@ import axios from "axios";
 const Home = () => {
     const [items, setItems] = useState([]);
 
-    useEffect(() => {
-      axios.get("/api/items")
-      .then(response => setItems(response.data))
-      .catch(error => console.error(error))
-    }, []);
-
     items.map(item => (
       console.log(item.id)
     ));
