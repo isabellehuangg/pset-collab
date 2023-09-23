@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.Links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem; 
+}
+
+.link {
+  cursor: pointer;
+  transition-duration: 40ms;
+}
+
+.link:hover {
+  transform: scale(1.04);
+}
