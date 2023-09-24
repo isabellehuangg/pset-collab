@@ -22,6 +22,9 @@ const Home = () => {
                 <button className="button">Sign Up</button>
             </a>
         </div>
+        <a href="/demo/dashboard">
+          <button className="demo button" style={{ background: 'linear-gradient(190deg, #1b1c3d, #484963)' }}>Try a Demo!</button>
+        </a>
         <div>
         <ul>
           {items.map(item => (
