@@ -4,7 +4,7 @@ const Navbar = () => {
     return ( 
         <div className="Navbar">
             <div className="Logo_Name">
-                <p>I hate 240</p>
+                <p style={{ fontWeight: '800' }}>StudySync</p>
             </div>
             <div className="Links">
                 <a className="link" href="/">About</a>

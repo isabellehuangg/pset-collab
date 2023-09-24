@@ -42,11 +42,11 @@ const DemoClass = () => {
         <div className="Class">
             <h1 style={{ fontSize: '3rem' }}>ECE 204</h1>
             <div className="menu">
-                <div>Lectures</div>
-                <div>Problem Sets</div>
-                <div>Tutorials</div>
-                <div>Exam Prep</div>
-                <div>Resources</div>
+                <div className="menu-link" style={{ fontWeight: '800' }}>Lectures</div>
+                <div className="menu-link">Problem Sets</div>
+                <div className="menu-link">Tutorials</div>
+                <div className="menu-link">Exam Prep</div>
+                <div className="menu-link">Resources</div>
             </div>
             <div className="content">
                 <div className="filenames" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '1.5rem' }}>
