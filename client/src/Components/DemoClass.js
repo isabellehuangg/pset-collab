@@ -21,11 +21,18 @@ const Files = () => {
         <div className="fileContainer" style={{ display: 'flex', flexDirection: 'column', marginLeft: '2rem' }}>
             <div style={{ alignSelf: 'flex-start', fontSize: '1.75rem' }}>Notes</div>
             <div className="files">
-                <div style={{ background: 'white', height: '35vh', width: '27vh', marginTop: '1rem', display: 'flex', justifyContent: 'center', alignItems: 'center', border: '1px dotted black' }}>
+                <div className="addFile" style={{ background: 'white', height: '35vh', width: '27vh', marginTop: '1rem', display: 'flex', justifyContent: 'center', alignItems: 'center', border: '1px dotted black', marginRight: '1rem' }}>
                     <button className="button" onClick={handleClick} style={{ backgroundColor: 'inherit', border: 'none', fontSize: '4rem', marginTop: '7rem' }}>+</button>
                     <input type="file" onChange={handleUpload} ref={hiddenFileInput} style={{ display: 'none' }} />
                 </div>
+                <div className="uploads">
+                    <div className="upload">Lecture 1</div>
+                    <div className="upload">Lecture 2</div>
+                    <div className="upload">Lecture 3</div>
+                    <div className="upload">Lecture 4</div>
+                    <div className="upload">Lecture 5</div>
             </div>
+                </div>
         </div>
     )
 }
@@ -43,11 +50,11 @@ const DemoClass = () => {
             </div>
             <div className="content">
                 <div className="filenames" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '1.5rem' }}>
-                    <div>Lecture 1: Brief description</div>
-                    <div>Lecture 2: Brief description</div>
-                    <div>Lecture 3: Brief description</div>
-                    <div>Lecture 4: Brief description</div>
-                    <div>Lecture 5: Brief description</div>
+                    <button className="file">Lecture 1: Brief description</button>
+                    <button className="file">Lecture 2: Brief description</button>
+                    <button className="file">Lecture 3: Brief description</button>
+                    <button className="file">Lecture 4: Brief description</button>
+                    <button className="file">Lecture 5: Brief description</button>
                 </div>
                 <Files />
             </div>
