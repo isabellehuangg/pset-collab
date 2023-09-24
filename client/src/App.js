@@ -18,7 +18,7 @@ function App() {
           <Route path="/search" element={<ClassSearch />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/demo/dashboard" element={<Dashboard />} />
           <Route path="/demo/class" element={<DemoClass />} />
         </Routes>
       </Router>
