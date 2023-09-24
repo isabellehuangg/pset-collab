@@ -207,7 +207,73 @@ input:focus {
   height: 50vh;
 }
 
+.files {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.uploads {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.upload {
+  background: white;
+  height: 20vh;
+  width: 15vh;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .filenames > * {
   font-size: 1.75em;
   padding-left: 5vh;
+}
+
+.file {
+  background-color: transparent;
+  border: none;
+
+}
+
+.file:hover, .addFile:hover, .upload:hover {
+  transform: scale(1.05);
+}
+
+.DemoDashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.DemoDashboard > .courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 50rem;
+}
+
+.course {
+  background-color: white;
+  width: 10rem;
+  height: 14rem;
+  padding: 2rem;
+  font-weight: 800;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.course:hover {
+  transform: scale(1.05);
 }
